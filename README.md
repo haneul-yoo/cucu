@@ -27,7 +27,7 @@ python generate_responses_hf.py \
   --input_csv ./data/queries.csv \
   --output_csv ./outputs/responses.csv \
   --models  openai/gpt-oss-120b,Qwen/Qwen3-235B-A22B,Qwen/Qwen3-Next-80B-A3B-Thinking,deepseek-ai/DeepSeek-R1 \
-  --judge_model Qwen/Qwen2.5-72B-Instruct \
+  --judge_model gpt-4o \
   --resume
 
 ```
